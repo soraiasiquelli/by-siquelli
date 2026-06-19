@@ -4,7 +4,6 @@ import nodeIcon from './icons/node.svg'
 export const arrayProjetos = [
    {
     nome: "SpeedOrder",
-    link: "aaaaa",
     imagem: "/images/testeimg.png",
     video: "/videos/VideoAtendente.mp4",
     descricao: ` Projeto desenvolvido integralmente por mim ao longo de 2 anos, desde o planejamento até a implantação em produção. Atuei em todas as etapas do desenvolvimento, incluindo front-end, back-end, banco de dados, APIs REST e hospedagem da aplicação na plataforma Integrator utilizando Node.js e PM2.
@@ -21,7 +20,6 @@ export const arrayProjetos = [
     
     {
         nome: "DevTasks - Gestão de Projetos",
-        link: "/images/testeimg.png",
         imagem: "/images/devtasks.jpg",
         video: "/videos/videodevtasks.mp4",
         descricao: ` Projeto desenvolvido durante minha fase de aprendizado em React, antes de avançar para tecnologias mais robustas utilizadas posteriormente no SpeedOrder.
