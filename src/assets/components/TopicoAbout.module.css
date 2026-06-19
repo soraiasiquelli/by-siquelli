@@ -1,0 +1,27 @@
+.item{
+    display: flex;
+}
+.botao{
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    padding: 10px 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+    height: 60px;
+}
+.botaoAtivo{
+    background-color: #2e9bdb;
+}
+
+@media (max-width: 480px){
+    .botao{
+        font-size: 15px;
+        padding: 8px 12px;
+        height: auto;
+    }
+}

@@ -1,0 +1,44 @@
+body{
+  background: #0A2472;
+  background: linear-gradient(90deg, rgba(10, 36, 114, 1) 43%, rgba(14, 107, 168, 1) 86%);
+  display: flex;
+  justify-content: center;
+  color: white;
+  overflow-x: hidden;
+}
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+header{
+  padding: 30px;
+  margin: 1%;
+  font-size: 25px;
+}
+main{
+  display: grid;
+  grid-template-columns: 0.1fr 1.2fr 1.2fr;
+  min-height: 60vh;
+  gap: 10px;
+}
+main > div{
+  /*border: 1px solid beige;*/
+  height: 70vh;
+}
+.logoIcon{
+  color: white;
+  fill: white;
+}
+
+@media (max-width: 900px){
+  main{
+    grid-template-columns: 1fr;
+    min-height: auto;
+    gap: 30px;
+    padding: 20px 0 60px;
+  }
+  main > div{
+    height: auto;
+  }
+}

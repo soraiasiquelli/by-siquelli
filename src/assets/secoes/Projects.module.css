@@ -1,0 +1,31 @@
+.mainProjetos{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+}
+.secaoProjetos{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+@media (max-width: 1024px){
+    .secaoProjetos{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 700px){
+    .mainProjetos{
+        gap: 60px;
+    }
+    .secaoProjetos{
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+}

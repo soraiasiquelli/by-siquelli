@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,600;0,700&display=swap');
+
+.cardWrapper{
+    display: flex;
+    flex-direction: column;
+}
+.cardProject{
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 5px solid #0A2472;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cardProject > p{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    font-family: "Archivo Black", sans-serif;
+}
+.tecnologias{
+    display: flex;
+    gap: 10px;
+}
+.iconeTecnologia{
+    width: 30px;
+    height: 30px;
+}
+
+.cardProject {
+    position: relative;
+    overflow: hidden;
+}
+
+.cardProject::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(10, 36, 114, 0.5);
+    transition: opacity 0.3s;
+}
+
+.cardProject:hover::before {
+    opacity: 0;
+}
+
+.cardProject p,
+.cardProject .tecnologias {
+    position: relative;
+    z-index: 1;
+}
+.infoProject{
+    width: 100%;
+    height: 5vh;
+    background-color:white;
+    color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-30px);
+    opacity: 0;
+    border-radius: 10px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+}
+.cardWrapper:hover .infoProject{
+    opacity: 1;
+    transition-duration: 0.4s;
+}
+.cardWrapper:hover p{
+    opacity: 0;
+    display: none;
+}
+.cardWrapper:hover .tecnologias {
+    opacity: 0;
+}
+
+@media (max-width: 768px){
+    .infoProject{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.codeTitle{
+  font-family: "Consolas", "Courier New", monospace;
+  color: white;
+  font-weight: 400;
+  font-size: 25px;
+}
+.destaque{
+  color: #FFC857;
+  font-weight: 700;
+}
+
+.sectionSocial{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 80vh;
+  gap: 10px;
+}
+.logoIcon{
+  color: white !important;
+  width: 70%;
+}
+.sectionMain{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+  height: 50vh;
+}
+.sectionMain > .txtWelcome{
+  font-size: 40px;
+    font-family: "Kanit", sans-serif;
+
+}
+.sectionMain > h2{
+  font-size: 50px;
+  font-family: "Archivo Black", sans-serif;
+
+}
+.sectionMain > h1{
+  font-size: 30px;
+    font-family: "Kanit", sans-serif;
+
+}
+.sectionMain > .txtLegenda{
+    font-family: "Kanit", sans-serif;
+
+}
+.sectionImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.sectionImage > img{
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+/*Icone Flutuante*/
+
+.iconFlutuante{
+  width: 150px;
+  height: 150px;
+  background-color: #0a2d869f;
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iconFlutuante:nth-child(1){
+  top: -60px;
+  left: 75%;
+}
+.iconFlutuante:nth-child(2){
+  top: 350px;
+  left: 0%;
+}
+.iconFlutuante > img{
+  width: 70%;
+}
+
+@media (max-width: 900px){
+  .sectionSocial{
+    display: none;
+  }
+  .sectionMain{
+    align-items: center;
+    text-align: center;
+    height: auto;
+    padding: 10px 20px;
+  }
+  .sectionMain > .txtWelcome{
+    font-size: 28px;
+  }
+  .sectionMain > h2{
+    font-size: 32px;
+  }
+  .sectionMain > h1{
+    font-size: 22px;
+  }
+  .sectionImage{
+    height: auto;
+    margin: 40px 0;
+  }
+  .sectionImage > img{
+    width: 220px;
+    height: 220px;
+  }
+  .iconFlutuante{
+    width: 90px;
+    height: 90px;
+  }
+  .iconFlutuante:nth-child(1){
+    top: -30px;
+    left: 65%;
+  }
+  .iconFlutuante:nth-child(2){
+    top: 200px;
+    left: 5%;
+  }
+}
+
+@media (max-width: 480px){
+  .codeTitle{
+    font-size: 16px;
+    text-align: center;
+  }
+  .sectionMain > h2{
+    font-size: 26px;
+  }
+  .sectionMain > h1{
+    font-size: 18px;
+  }
+  .sectionImage > img{
+    width: 180px;
+    height: 180px;
+  }
+  .iconFlutuante{
+    width: 70px;
+    height: 70px;
+  }
+  .iconFlutuante > img{
+    width: 60%;
+  }
+}
