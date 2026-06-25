@@ -4,7 +4,7 @@ import nodeIcon from './icons/node.svg'
 export const arrayProjetos = [
    {
     nome: "SpeedOrder",
-    imagem: "/images/testeimg.png",
+    imagem: "/images/speedorder.png",
     video: "/videos/VideoAtendente.mp4",
     descricao: ` Projeto desenvolvido integralmente por mim ao longo de 2 anos, desde o planejamento até a implantação em produção. Atuei em todas as etapas do desenvolvimento, incluindo front-end, back-end, banco de dados, APIs REST e hospedagem da aplicação na plataforma Integrator utilizando Node.js e PM2.
 
@@ -19,16 +19,16 @@ export const arrayProjetos = [
 
     
     {
-        nome: "DevTasks - Gestão de Projetos",
-        imagem: "/images/devtasks.jpg",
-        video: "/videos/videodevtasks.mp4",
-        descricao: ` Projeto desenvolvido durante minha fase de aprendizado em React, antes de avançar para tecnologias mais robustas utilizadas posteriormente no SpeedOrder.
+        nome: "GelaBem AI",
+        imagem: "/images/gelabemimagem.png",
+        video: "/videos/gelabem.mp4",
+        descricao: ` Gelabem AI é uma aplicação inteligente de gerenciamento de estoque doméstico que utiliza inteligência artificial para facilitar o controle de alimentos e produtos armazenados. O sistema permite que o usuário cadastre itens manualmente ou através de fotos, onde a IA identifica automaticamente o produto e ajuda a organizar informações como nome, categoria e quantidade.
 
-         O DevTasks é uma aplicação para gerenciamento de projetos e tarefas, permitindo organizar atividades e acompanhar seu progresso de forma simples e intuitiva. 
+    O projeto também inclui suporte para diferentes unidades de medida (como kg, g, litros, mL e unidades), tornando o controle mais preciso e flexível. Além disso, o Gelabem AI pode sugerir receitas com base nos itens disponíveis no estoque, ajudando o usuário a aproveitar melhor os alimentos e reduzir desperdícios.
 
-         Durante o desenvolvimento, aprofundei meus conhecimentos em React, Hooks, React Router, consumo e manipulação de dados em JSON, além da integração com um backend utilizando Express. 
+    Desenvolvido como um MVP (produto mínimo viável), o objetivo do Gelabem AI é evoluir para uma solução mais avançada no futuro, com automações e integração com dispositivos inteligentes, como geladeiras conectadas, transformando-se em um verdadeiro sistema de “geladeira inteligente.
 
-         Tecnologias utilizadas: React, JavaScript, Express, HTML e CSS. `
+         Tecnologias utilizadas: Angular 17, Express, Sequelize, Node.js`
 
     },
     {
